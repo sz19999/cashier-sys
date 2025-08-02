@@ -1,9 +1,7 @@
 /************************************************
 
 Program: Advanced Programming Lab Final Project
-Authors: Sean Solomon Zinger - 207457201, 
-         Zaki Dakhnus - 322370701, 
-         Barel Goyhman - 207019043
+Authors: Sean Zinger
 
 *************************************************/
 
