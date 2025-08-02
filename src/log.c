@@ -1,7 +1,7 @@
-#include "libraries.h"
+#include "../inc/libraries.h"
 
 bool checkIfLogFileExists(Queue* Log) {
-	FILE* fp = fopen("log.txt", "r");
+	FILE* fp = fopen("build/log.txt", "r");
 
 	if (fp == NULL) {
 		addToLog("log file doesn't exist, created new log file\n", Log);
@@ -14,12 +14,12 @@ bool checkIfLogFileExists(Queue* Log) {
 }
 
 void createNewLogFile() {
-	FILE* fp = fopen("log.txt", "w");
+	FILE* fp = fopen("build/log.txt", "w");
 	fclose(fp);
 }
 
 void updateLogFile(Queue* Log) {
-	FILE* fp = fopen("log.txt", "a");
+	FILE* fp = fopen("build/log.txt", "a");
 
 	QueueNode* currentNode = Log->head;
 	while (currentNode != NULL) {

@@ -1,8 +1,8 @@
-#include "libraries.h"
+#include "../inc/libraries.h"
 
 // general functions
 bool checkIfCustomersFileExists(Queue* Log) {
-	FILE* fp = fopen("customers.bin", "rb");
+	FILE* fp = fopen("build/customers.bin", "rb");
 	if (!fp) {
 		addToLog("customers file doesn't exist, created new customers file\n", Log);
 		return false;
@@ -12,12 +12,12 @@ bool checkIfCustomersFileExists(Queue* Log) {
 }
 
 void createNewCustomersFile() {
-	FILE* fp = fopen("customers.bin", "wb");
+	FILE* fp = fopen("build/customers.bin", "wb");
 	fclose(fp);
 }
 
 void loadCustomers(List* customersList) {
-	FILE* fp = fopen("customers.bin", "rb");
+	FILE* fp = fopen("build/customers.bin", "rb");
 	if (!fp) return;
 
 	// reads all of the customers from the file and creates a list of items purchased for each customer
@@ -108,7 +108,7 @@ void initializeSerialsArr(int* serialsArray, int len, List* customerItemsList) {
 }
 
 void updateCustomersFile(List* customersList) {
-	FILE* fp = fopen("customers.bin", "wb");
+	FILE* fp = fopen("build/customers.bin", "wb");
 
 	int currentCursorPosition = 0;
 	Node* currentNode = customersList->head;

@@ -1,4 +1,4 @@
-#include "libraries.h"
+#include "../inc/libraries.h"
 
 List* List_Create(char* type) {
 	List* L = (List*)malloc(sizeof(List));

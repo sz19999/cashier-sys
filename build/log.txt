@@ -1,0 +1,7 @@
+02-08-2025 22:42:06 | log file doesn't exist, created new log file
+02-08-2025 22:42:06 | items file doesn't exist, created new items file
+02-08-2025 22:42:06 | customers file doesn't exist, created new customers file
+02-08-2025 22:42:06 | employees file doesn't exist, created new employees file
+02-08-2025 22:42:06 | added a new employee with user "admin"
+02-08-2025 22:42:09 | user "admin" has logged in
+02-08-2025 22:42:10 | user has logged out, session ended

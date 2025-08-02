@@ -1,4 +1,4 @@
-#include "libraries.h"
+#include "../inc/libraries.h"
 
 /************************************* item input functions ******************************************/
 
@@ -971,7 +971,7 @@ void writeItem(Items* item, FILE* itemsFile, int* currentCursorPosition) {
 }
 
 bool checkIfItemsFileExists(Queue* Log) {
-    FILE* fp = fopen("items.bin", "rb");
+    FILE* fp = fopen("build/items.bin", "rb");
 
     if (!fp) { 
         addToLog("items file doesn't exist, created new items file\n", Log);
@@ -984,12 +984,12 @@ bool checkIfItemsFileExists(Queue* Log) {
 }
 
 void createNewItemsFile() {
-    FILE* fp = fopen("items.bin", "wb");
+    FILE* fp = fopen("build/items.bin", "wb");
     fclose(fp);
 }
 
 void loadItems(List* itemsList) {
-    FILE* fp = fopen("items.bin", "rb");
+    FILE* fp = fopen("build/items.bin", "rb");
     if (!fp) return;
 
     int currentCursorPosition = 0;
@@ -1003,7 +1003,7 @@ void loadItems(List* itemsList) {
 }
 
 void updateItemsFile(List* itemsList) {
-    FILE* fp = fopen("items.bin", "wb");
+    FILE* fp = fopen("build/items.bin", "wb");
     
     int currentCursorPosition = 0;
     Node* currentNode = itemsList->head;

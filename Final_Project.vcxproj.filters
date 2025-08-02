@@ -15,75 +15,64 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="employees.c">
+    <ClCompile Include="src\customers.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.c">
+    <ClCompile Include="src\employees.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="customers.c">
+    <ClCompile Include="src\items.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="items.c">
+    <ClCompile Include="src\linked_list.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="menu.c">
+    <ClCompile Include="src\log.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="linked_list.c">
+    <ClCompile Include="src\main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="queue.c">
+    <ClCompile Include="src\main_auxiliary_functions.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="log.c">
+    <ClCompile Include="src\menu.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main_auxiliary_functions.c">
+    <ClCompile Include="src\queue.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="customers.h">
+    <ClInclude Include="inc\customers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="employees.h">
+    <ClInclude Include="inc\definitions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="items.h">
+    <ClInclude Include="inc\employees.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="menu.h">
+    <ClInclude Include="inc\items.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="linked_list.h">
+    <ClInclude Include="inc\libraries.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="queue.h">
+    <ClInclude Include="inc\linked_list.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="log.h">
+    <ClInclude Include="inc\log.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="libraries.h">
+    <ClInclude Include="inc\main_auxiliary_functions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="definitions.h">
+    <ClInclude Include="inc\menu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="main_auxiliary_functions.h">
+    <ClInclude Include="inc\queue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="employees.bin">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="x64\Debug\items.bin">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="x64\Debug\customers.bin">
-      <Filter>Source Files</Filter>
-    </None>
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-#include "libraries.h"
+#include "../inc/libraries.h"
 // a queue implemented by a linked list
 
 Queue* Queue_Create() {

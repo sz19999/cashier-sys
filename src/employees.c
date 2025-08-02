@@ -1,8 +1,8 @@
-#include "libraries.h"
+#include "../inc/libraries.h"
 
 // general functions
 bool checkIfEmployeeFileExists(Queue* Log) {
-	FILE* fp = fopen("employees.bin", "rb");
+	FILE* fp = fopen("build/employees.bin", "rb");
 	
 	if (fp == NULL) {
 		addToLog("employees file doesn't exist, created new employees file\n", Log);
@@ -13,7 +13,7 @@ bool checkIfEmployeeFileExists(Queue* Log) {
 }
 
 void createDefaultAdmin(Queue* Log) {
-	FILE* fp = fopen("employees.bin", "wb");
+	FILE* fp = fopen("build/employees.bin", "wb");
 
 	Employee defaultEmployee = {
 		"admin",
@@ -71,7 +71,7 @@ Employee login() {
 }
 
 Employee findEmployeeByUserInFile(char* username) {
-	FILE* fp = fopen("employees.bin", "rb");
+	FILE* fp = fopen("build/employees.bin", "rb");
 
 	// null employee struct
 	Employee NullEmployee = {"0", "0", "0", 0};
@@ -92,7 +92,7 @@ Employee findEmployeeByUserInFile(char* username) {
 }
 
 void loadEmployees(List* employeesList) {
-	FILE* fp = fopen("employees.bin", "rb");
+	FILE* fp = fopen("build/employees.bin", "rb");
 	if (!fp) return;
 
 	Employee currentEmployee;
@@ -231,7 +231,7 @@ void deleteEmployee(List* employeesList, Queue* Log) {
 }
 
 void updateEmployeesFile(List* employeesList) {
-	FILE* fp = fopen("employees.bin", "wb");
+	FILE* fp = fopen("build/employees.bin", "wb");
 	if (!fp) return;
 
 	Node* currentNode = employeesList->head;

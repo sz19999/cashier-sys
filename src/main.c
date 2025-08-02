@@ -7,7 +7,7 @@ Authors: Sean Solomon Zinger - 207457201,
 
 *************************************************/
 
-#include "libraries.h"
+#include "../inc/libraries.h"
 
 int main() {
     // creates the data structures to load the files data

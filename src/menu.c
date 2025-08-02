@@ -1,4 +1,4 @@
-#include "libraries.h"
+#include "../inc/libraries.h"
 
 void showMenu(unsigned int employeeLevel, List* employeesList, List* customersList, List* itemsList, Queue* Log) {
 	List* shoppingCart = List_Create("items");

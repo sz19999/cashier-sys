@@ -1,4 +1,4 @@
-#include "libraries.h"
+#include "../inc/libraries.h"
 
 void ensureFilesExist(Queue* Log) {
     if (!checkIfLogFileExists(Log)) {

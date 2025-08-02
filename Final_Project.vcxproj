@@ -18,6 +18,29 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\customers.c" />
+    <ClCompile Include="src\employees.c" />
+    <ClCompile Include="src\items.c" />
+    <ClCompile Include="src\linked_list.c" />
+    <ClCompile Include="src\log.c" />
+    <ClCompile Include="src\main.c" />
+    <ClCompile Include="src\main_auxiliary_functions.c" />
+    <ClCompile Include="src\menu.c" />
+    <ClCompile Include="src\queue.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\customers.h" />
+    <ClInclude Include="inc\definitions.h" />
+    <ClInclude Include="inc\employees.h" />
+    <ClInclude Include="inc\items.h" />
+    <ClInclude Include="inc\libraries.h" />
+    <ClInclude Include="inc\linked_list.h" />
+    <ClInclude Include="inc\log.h" />
+    <ClInclude Include="inc\main_auxiliary_functions.h" />
+    <ClInclude Include="inc\menu.h" />
+    <ClInclude Include="inc\queue.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,34 +149,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="customers.c" />
-    <ClCompile Include="employees.c" />
-    <ClCompile Include="items.c" />
-    <ClCompile Include="linked_list.c" />
-    <ClCompile Include="log.c" />
-    <ClCompile Include="main.c" />
-    <ClCompile Include="main_auxiliary_functions.c" />
-    <ClCompile Include="menu.c" />
-    <ClCompile Include="queue.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="customers.h" />
-    <ClInclude Include="employees.h" />
-    <ClInclude Include="items.h" />
-    <ClInclude Include="libraries.h" />
-    <ClInclude Include="linked_list.h" />
-    <ClInclude Include="log.h" />
-    <ClInclude Include="main_auxiliary_functions.h" />
-    <ClInclude Include="menu.h" />
-    <ClInclude Include="queue.h" />
-    <ClInclude Include="definitions.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="employees.bin" />
-    <None Include="x64\Debug\customers.bin" />
-    <None Include="x64\Debug\items.bin" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
