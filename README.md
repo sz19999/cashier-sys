@@ -1,5 +1,11 @@
-## C console book store cashier system
-This is an academic project that was built as a final project for the course "Advanced C Programming Lab" in "HIT" College.
-The chashier system is built purely in C, and runs from the command line console. the program enables a user to login, track inventory, and manipulate it (eg. delete/add item, sell/return).
+##C Console Bookstore Cashier System
+This is an academic project developed as a final assignment for the Advanced C Programming Lab course at HIT College.
+The cashier system is implemented purely in C and runs as a command-line console application. It allows users to:
+*Log in securely
+*Track inventory
+*Manipulate inventory (e.g., add/delete items, sell/return books)
 
-* The project was built in "Visual Studio 2022", it can be directly cloned, compiled and ran inside Visual Studio. for other alternatives just download the src, inc and build directories, then compile and run.
+#Development Environment
+*Built using Visual Studio 2022
+*The project can be cloned, compiled, and run directly within Visual Studio
+*Alternatively, you can download the src/, inc/, and build/ directories separately and compile the project manually with a C compiler
