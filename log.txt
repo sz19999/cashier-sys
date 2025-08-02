@@ -1,0 +1,2 @@
+02-08-2025 22:20:57 | user "0" has logged in
+02-08-2025 22:20:57 | failed login attempt 3 times in a row
