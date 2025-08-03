@@ -3,7 +3,7 @@ This is an academic project developed as a final assignment for the Advanced C P
 The cashier system is implemented purely in C and runs as a command-line console application. It allows users to:
 * Log in
 * Track inventory
-* Manipulate inventory (e.g., add/delete items, sell/return books)
+* Manipulate inventory (e.g., add/delete items, sell/return)
 
 ## Development Environment
 * Built using Visual Studio 2022
