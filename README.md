@@ -9,5 +9,5 @@ The cashier system is implemented purely in C and runs as a command-line console
 * Built using Visual Studio 2022
 * The project can be cloned as is, compiled, and run directly within Visual Studio
 * Alternatively, you can download the src/, inc/, and build/ directories separately and compile the project manually with a C compiler
-* When running first time, an admin user is created (username: admin, password: 12345678). after loggin for the first time, you can add other users.
-* ***Important***: To run the .exe file after building, execute the program from project root folder (e.g., run build\Final_Project.exe from the project root folder) to ensure file paths resolve correctly
+* When running first time, an admin user is created (username: admin, password: 12345678), after loggin for the first time, you can add other users
+* ***Important***: To run the .exe file after building, execute the program from project root folder (e.g., run build\Final_Project.exe from the project root folder) to ensure the program runs correctly, otherwise it would crash
