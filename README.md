@@ -5,7 +5,7 @@ The cashier system is implemented purely in C and runs as a command-line console
 * Track inventory
 * Manipulate inventory (e.g., add/delete items, sell/return)
 
-## Development Environment
+## Running the program
 * Built using Visual Studio 2022
 * The project can be cloned as is, compiled, and run directly within Visual Studio
 * Alternatively, you can download the src/, inc/, and build/ directories separately and compile the project manually with a C compiler
